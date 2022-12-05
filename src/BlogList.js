@@ -21,7 +21,6 @@ const BlogList = (props) => {
             <h2>Blog name {blog.title}</h2>
             <p>Written by {blog.author}</p>
           </Link>
-
           <button onClick={() => handleDelete(blog.id)}>Delete Me</button>
           {/* ei jaigai amra jehetu home.js er data use kortyci seijonno data amra edit korty parbo nah just view korty parbo , kintu amader to delete korty hobe .. sei jonno amra home.js er moddhe delete er funciotn likhbo thn oita ke invoke kore dibo ei jaiga theke as a props hisabe */}
         </div>
