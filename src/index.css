@@ -19,6 +19,9 @@
 .nav h1 {
   color: #f1356d;
 }
+.nav h2{
+  color:mediumblue;
+}
 
 .nav .link {
   margin-left: auto;
@@ -53,4 +56,8 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+
+.blog-preview a {
+ background: none;
 }
